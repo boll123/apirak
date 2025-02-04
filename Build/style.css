@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.back{
+    background: #1f1f1f;
+    border-radius: 0px 0px 24px 24px;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #dedede;
+    gap: 32px;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    padding: 12px;
+    background: #f5f5f5;
+    border-radius: 24px;
+
+}
+
+nav .nav-link{
+    display: flex;
+    gap: 24px;
+    
+}
+
+nav .nav-link a{
+    font-size: 14px;
+    color: #606060;
+    transition: all 0.3s ease;
+}
+nav .nav-link a:hover{
+    color: #000;
+}
+nav .nav2{
+    padding: 13px;
+    border: 1px solid #fafafa;
+    border-radius: 14px;
+    background: #000;
+}
+nav .nav2 a{
+    color: #fff;
+    font-size: 14px;
+}
+nav .nav2 a:hover{
+    color: #606060;
+}
+.main{
+    margin: 10% auto; 
+    width: 95%;
+    border-radius: 100px;
+    border: 2px solid #dedede;
+    height: calc(100vh - 80px);
+    padding: 5%; 
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.main .less1 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80vh;
+    gap: 5%;
+    width: 100%; 
+    border: 2px solid #dedede;
+    border-radius: 90px;
+    background: #ffffff;
+    padding: 5%;
+    position: relative;
+}
+
+.imgin img {
+    max-width: 500px; 
+    width: 200%;
+    height: auto;
+    border-radius: 26px;
+}
+.main .less1 .lees2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+.main .less1 .lees2 h2{
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+.main .less1 .lees2 p{
+    color: #606060;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.bottom {
+    font-size: 14px;
+    color: #606060;
+    margin-top: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ; 
+    position: absolute;
+    bottom: 5%;
+    right: 87%;
+}
+
+.bottom .icons {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f5f5f5;
+    padding: 50px;
+}
+.about > p{
+    font-size: 14px;
+    color: #606060;
+    border: 1px solid #e8e8e8;
+    padding: 6px 14px;
+    border-radius: 16px;
+    margin-right: 12px;
+    background: #fff;
+}
+.about > h2{
+    font-size: 22px;
+    text-align: center;
+    margin: 30px;
+}
+
+.about .items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.about .items .item{
+    width: 40%;
+    border: 1px solid #e8e8e8;
+    border-radius: 30px;
+    background: #f1f1f1;
+    padding: 0 0 30px;
+}
+.about .items .item .inner{
+    background: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    min-height: 365px;
+}
+.about .items .item img{
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+.about .item .inner h3{
+    font-size: 18px;
+    color: #000;
+    margin: 10px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.about .item .inner p{
+    color: #606060;
+    font-size: 15px;
+    line-height: 24px;
+    white-space: pre-line;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Projects{
+    padding: 0 24px;
+    background: #f5f5f5;
+}
+.Projects .inner{
+    background: #1f1f1f;
+    color: #fff;
+    padding: 70px;
+    border-radius: 24px;
+    align-items: center;
+
+}
+.Projects .inner > h2{
+    font-size: 38px;
+}
+.Projects .inner p.info{
+    font-size: 16px;
+    color: #dedede;
+    margin-bottom: 24px;
+}
+.Projects .inner .Items {
+    display: flex;
+    gap: 20px;
+}
+.Projects .inner .Items .item{
+    border: 1px solid #484848;
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 50%;
+    background: #262626;
+    min-height: 9px;
+}
+.Projects .inner .Items .item i{
+   font-size: 38px;
+   border: 1px solid #606060;
+   border-radius: 10px;
+   padding: 10px;
+   background: #303030; 
+}
+.Projects .inner .Items .item h3{
+    display: block;
+    margin: 24px 0 14px;
+    color: #fff;
+    font-size: 20px;
+}
+.Projects .inner .Items .item p{
+    color: #a1a1a1;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.contact{
+    padding: 100px 60px;
+    background: #f5f5f5;
+}
+.contact > h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.contact .items{
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+}
+.contact .items .item{
+    width: 1020px;
+    padding: 40px;
+    border: 1px solid #dedede;
+}
+.contact .items .item:nth-child(1){
+    border-radius: 12px 0 0 12px;
+}
+.contact .items .item:nth-child(2){
+    border-radius: 12px 0 0 12px;
+}
+.contact .items .item h3{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+.contact .items .item p{
+    font-size:  20px;
+    color: #606060;
+    margin-bottom: 26px;
+    white-space: pre-line;
+    align-items: center;
+    text-align:start
+}
+footer{
+    background: #1f1f1f;
+    border-radius: 24px 24px 0 0;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+footer p,
+footer a{
+    font-size: 13px;
+    color: #606060;
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    color: #fff;
+}
+
+@media  screen and (max-width : 1280px) {
+    .main .less1 .lees2 h2{
+        font-size : 25px;
+    }
+    .main .less1 .lees2 p{
+        font-size: 14px;
+    }
+    .about .items .item .inner{
+        min-height: 340px;
+    }
+    .about .item .inner h3,
+    .Projects .inner > p.info,
+    .contact .items .item p{
+        font-size: 15px;
+    }
+    .about .items .item .inner p{
+        font-size: 13px;
+    }
+    .Projects .inner .Items{
+        flex-wrap: wrap;
+    }
+    .Projects .inner .Items.item{
+        width: 46%;
+        height: 220px;
+    }
+    .contact .items .item h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main{
+        margin-top: 200px;
+        flex-direction: column;
+        justify-content: center;
+        height: calc(100vh - 100px);
+    }
+    .main .less1{
+        gap: 20px;
+        align-items: center;
+    }
+    .main .less1 .lees2{
+        text-align: center;
+    }
+     
+}
